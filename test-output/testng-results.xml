@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PurchaseTest" duration-ms="25706" started-at="2020-09-04T14:57:07Z" finished-at="2020-09-04T14:57:32Z">
+    <groups>
+    </groups>
+    <test name="PurchaseLaptops" duration-ms="25706" started-at="2020-09-04T14:57:07Z" finished-at="2020-09-04T14:57:32Z">
+      <class name="app.suites.PurchaseProducts">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:app.suites.PurchaseProducts@765d7657]" name="beforeTest" is-config="true" duration-ms="382" started-at="2020-09-04T09:57:07Z" finished-at="2020-09-04T09:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setClasses(java.lang.String)[pri:0, instance:app.suites.PurchaseProducts@765d7657]" name="setClasses" is-config="true" duration-ms="9408" started-at="2020-09-04T09:57:07Z" finished-at="2020-09-04T09:57:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClasses -->
+        <test-method status="PASS" signature="purchaseLaptop()[pri:0, instance:app.suites.PurchaseProducts@765d7657]" name="purchaseLaptop" duration-ms="14170" started-at="2020-09-04T09:57:16Z" finished-at="2020-09-04T09:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseLaptop -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:app.suites.PurchaseProducts@765d7657]" name="afterMethod" is-config="true" duration-ms="1066" started-at="2020-09-04T09:57:31Z" finished-at="2020-09-04T09:57:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseLaptop status=SUCCESS method=PurchaseProducts.purchaseLaptop()[pri:0, instance:app.suites.PurchaseProducts@765d7657] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:app.suites.PurchaseProducts@765d7657]" name="afterTest" is-config="true" duration-ms="647" started-at="2020-09-04T09:57:32Z" finished-at="2020-09-04T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- app.suites.PurchaseProducts -->
+    </test> <!-- PurchaseLaptops -->
+  </suite> <!-- PurchaseTest -->
+</testng-results>

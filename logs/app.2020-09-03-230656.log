@@ -1,0 +1,30 @@
+23:06:56.751 [INFO ] [PurchaseProducts] - The Test Suite app.suites.PurchaseProducts has started
+23:07:03.076 [INFO ] [PurchaseProducts] - Local Driver
+23:07:03.082 [INFO ] [PurchaseProducts] -  Base Url: https://www.demoblaze.com/ Browser: chrome
+23:07:03.083 [INFO ] [PurchaseProducts] - Driver: ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)
+23:07:07.063 [INFO ] [PurchaseProducts] - 
+ ----------------------------------------------------------------------
+23:07:07.063 [INFO ] [PurchaseProducts] -  -------------- Step 1 Login to the access Credentials ------------------
+23:07:07.118 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //a[contains(text(),'Laptops')]] to be clickable
+23:07:07.291 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //a[contains(text(),'Laptops')]] is clickable
+23:07:07.427 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //a[contains(text(),'Laptops')]]
+23:07:07.427 [INFO ] [ProductStoreLPage] - The Click on Filter
+23:07:07.427 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element # to be present in the URL
+23:07:07.441 [INFO ] [ExplicitWaits] - The URL contains: #
+23:07:07.442 [INFO ] [ProductStoreLPage] - The URL is displayed correctly
+23:07:07.527 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //h4/a] is : Samsung galaxy s6
+23:07:07.527 [INFO ] [ProductStoreLPage] - Product: Samsung galaxy s6
+23:07:07.616 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //h4/a] is : Nokia lumia 1520
+23:07:07.616 [INFO ] [ProductStoreLPage] - Product: Nokia lumia 1520
+23:07:07.686 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //h4/a] is : Nexus 6
+23:07:07.686 [INFO ] [ProductStoreLPage] - Product: Nexus 6
+23:07:07.757 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //h4/a] is : Samsung galaxy s7
+23:07:07.757 [INFO ] [ProductStoreLPage] - Product: Samsung galaxy s7
+23:07:07.825 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //h4/a] is : Iphone 6 32gb
+23:07:07.826 [INFO ] [ProductStoreLPage] - Product: Iphone 6 32gb
+23:07:07.925 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (afaa5a084377c15d359635d59ec151bf)] -> xpath: //h4/a] is : Sony xperia z5
+23:07:07.925 [INFO ] [ProductStoreLPage] - Product: Sony xperia z5
+23:07:07.957 [INFO ] [PurchaseProducts] - ======PASSED=====
+23:07:07.960 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
+23:07:07.960 [INFO ] [PurchaseProducts] -  -------------- The Test purchaseLaptop has been completed
+23:07:07.960 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------

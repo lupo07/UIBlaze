@@ -1,0 +1,28 @@
+23:02:45.049 [INFO ] [PurchaseProducts] - The Test Suite app.suites.PurchaseProducts has started
+23:02:50.957 [INFO ] [PurchaseProducts] - Local Driver
+23:02:50.958 [INFO ] [PurchaseProducts] -  Base Url: https://www.demoblaze.com/ Browser: chrome
+23:02:50.959 [INFO ] [PurchaseProducts] - Driver: ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)
+23:02:54.771 [INFO ] [PurchaseProducts] - 
+ ----------------------------------------------------------------------
+23:02:54.772 [INFO ] [PurchaseProducts] -  -------------- Step 1 Login to the access Credentials ------------------
+23:02:54.818 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)] -> xpath: //a[contains(text(),'Laptops')]] to be clickable
+23:02:54.965 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)] -> xpath: //a[contains(text(),'Laptops')]] is clickable
+23:02:55.087 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)] -> xpath: //a[contains(text(),'Laptops')]]
+23:02:55.088 [INFO ] [ProductStoreLPage] - The Click on Filter
+23:02:55.088 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element # to be present in the URL
+23:02:55.100 [INFO ] [ExplicitWaits] - The URL contains: #
+23:02:55.100 [INFO ] [ProductStoreLPage] - The URL is displayed correctly
+23:02:55.199 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)] -> xpath: //h4/a] is : Samsung galaxy s6
+23:02:55.199 [INFO ] [ProductStoreLPage] - Product: Samsung galaxy s6
+23:02:55.259 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)] -> xpath: //h4/a] is : Nokia lumia 1520
+23:02:55.259 [INFO ] [ProductStoreLPage] - Product: Nokia lumia 1520
+23:02:55.373 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)] -> xpath: //h4/a] is : MacBook air
+23:02:55.373 [INFO ] [ProductStoreLPage] - Product: MacBook air
+23:02:55.477 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)] -> xpath: //h4/a] is : Dell i7 8gb
+23:02:55.478 [INFO ] [ProductStoreLPage] - Product: Dell i7 8gb
+23:02:56.182 [INFO ] [SeleniumActions] - Click on the WebElement: [[ChromeDriver: chrome on WINDOWS (ec0d53175aee965b72f785ffb1594622)] -> xpath: //h4/a]
+23:02:56.182 [INFO ] [ProductStoreLPage] - The Click on the element Dell i7 8gb
+23:02:56.190 [INFO ] [PurchaseProducts] - ======PASSED=====
+23:02:56.191 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
+23:02:56.192 [INFO ] [PurchaseProducts] -  -------------- The Test purchaseLaptop has been completed
+23:02:56.193 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------

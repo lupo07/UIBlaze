@@ -1,0 +1,80 @@
+23:19:19.496 [INFO ] [PurchaseProducts] - The Test Suite app.suites.PurchaseProducts has started
+23:19:26.422 [INFO ] [PurchaseProducts] - Local Driver
+23:19:26.422 [INFO ] [PurchaseProducts] -  Base Url: https://www.demoblaze.com/ Browser: chrome
+23:19:26.423 [INFO ] [PurchaseProducts] - Driver: ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)
+23:19:30.523 [INFO ] [PurchaseProducts] - 
+ ----------------------------------------------------------------------
+23:19:30.523 [INFO ] [PurchaseProducts] -  -------------- Step 1 Login to the access Credentials ------------------
+23:19:30.595 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //a[contains(text(),'Laptops')]] to be clickable
+23:19:30.865 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //a[contains(text(),'Laptops')]] is clickable
+23:19:31.104 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //a[contains(text(),'Laptops')]]
+23:19:31.105 [INFO ] [ProductStoreLPage] - The Click on Filter
+23:19:31.105 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element # to be present in the URL
+23:19:31.119 [INFO ] [ExplicitWaits] - The URL contains: #
+23:19:31.120 [INFO ] [ProductStoreLPage] - The URL is displayed correctly
+23:19:31.233 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //h4/a] is : Samsung galaxy s6
+23:19:31.234 [INFO ] [ProductStoreLPage] - Product: Samsung galaxy s6
+23:19:31.367 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //h4/a] is : Nokia lumia 1520
+23:19:31.368 [INFO ] [ProductStoreLPage] - Product: Nokia lumia 1520
+23:19:31.549 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //h4/a] is : MacBook air
+23:19:31.549 [INFO ] [ProductStoreLPage] - Product: MacBook air
+23:19:31.619 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //h4/a] is : Dell i7 8gb
+23:19:31.620 [INFO ] [ProductStoreLPage] - Product: Dell i7 8gb
+23:19:32.139 [INFO ] [SeleniumActions] - Click on the WebElement: [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //h4/a]
+23:19:32.139 [INFO ] [ProductStoreLPage] - The Click on the element Dell i7 8gb
+23:19:32.305 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='name']' to be visible
+23:19:32.497 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //h2[@class='name']] is present
+23:19:32.595 [INFO ] [JavaScriptFunctions] - Shade element [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //h2[@class='name']]
+23:19:33.186 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //h2[@class='name']] is : Dell i7 8gb
+23:19:33.187 [INFO ] [SupportValidations] - The Actual Header is: Dell i7 8gb The Expected Header is: Dell i7 8gb
+23:19:33.208 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //a[@class='btn btn-success btn-lg']] to be clickable
+23:19:33.297 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //a[@class='btn btn-success btn-lg']] is clickable
+23:19:33.439 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //a[@class='btn btn-success btn-lg']]
+23:19:33.440 [INFO ] [ProductPage] - Click on Add to Cart
+23:19:34.447 [INFO ] [ProductPage] - The alert was displayed successfully
+23:19:34.511 [DEBUG] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (b0d391cf8a6f387f79d13a9c1d7ce946)] -> xpath: //a[contains(text(),'Cart')]] is not clickable org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Product added}
+  (Session info: chrome=85.0.4183.83): Product added
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H2M3TG4', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b0d391cf8a6f387f79d13a9c1d7ce946
+*** Element info: {Using=xpath, value=//a[contains(text(),'Cart')]}
+23:19:34.527 [INFO ] [PurchaseProducts] - ======FAILED=====
+23:19:35.105 [DEBUG] [UsefulMethods] - Local WebDriver detected..
+23:19:35.240 [INFO ] [PurchaseProducts] - Exception: java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at app.pages.ProductPage.clickOnCartTab(ProductPage.java:75)
+	at app.suites.PurchaseProducts.purchaseLaptop(PurchaseProducts.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+23:19:35.284 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
+23:19:35.285 [INFO ] [PurchaseProducts] -  -------------- The Test purchaseLaptop has been completed
+23:19:35.285 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------

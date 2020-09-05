@@ -1,0 +1,89 @@
+00:52:00.453 [INFO ] [PurchaseProducts] - The Test Suite app.suites.PurchaseProducts has started
+00:52:06.382 [INFO ] [PurchaseProducts] - Local Driver
+00:52:06.382 [INFO ] [PurchaseProducts] -  Base Url: https://www.demoblaze.com/ Browser: chrome
+00:52:06.383 [INFO ] [PurchaseProducts] - Driver: ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)
+00:52:10.363 [INFO ] [PurchaseProducts] - 
+ ----------------------------------------------------------------------
+00:52:10.364 [INFO ] [PurchaseProducts] -  -------------- Step 1 Login to the access Credentials ------------------
+00:52:10.410 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[contains(text(),'Laptops')]] to be clickable
+00:52:10.560 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[contains(text(),'Laptops')]] is clickable
+00:52:10.675 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[contains(text(),'Laptops')]]
+00:52:10.675 [INFO ] [ProductStoreLPage] - The Click on Filter
+00:52:10.675 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element # to be present in the URL
+00:52:10.687 [INFO ] [ExplicitWaits] - The URL contains: #
+00:52:10.687 [INFO ] [ProductStoreLPage] - The URL is displayed correctly
+00:52:13.790 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //h4/a] is : Sony vaio i5
+00:52:13.790 [INFO ] [ProductStoreLPage] - Product: Sony vaio i5
+00:52:13.863 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //h4/a] is : Sony vaio i7
+00:52:13.864 [INFO ] [ProductStoreLPage] - Product: Sony vaio i7
+00:52:13.930 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //h4/a] is : MacBook air
+00:52:13.931 [INFO ] [ProductStoreLPage] - Product: MacBook air
+00:52:14.001 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //h4/a] is : Dell i7 8gb
+00:52:14.001 [INFO ] [ProductStoreLPage] - Product: Dell i7 8gb
+00:52:14.695 [INFO ] [SeleniumActions] - Click on the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //h4/a]
+00:52:14.695 [INFO ] [ProductStoreLPage] - The Click on the element Dell i7 8gb
+00:52:14.743 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='name']' to be visible
+00:52:15.459 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //h2[@class='name']] is present
+00:52:15.512 [INFO ] [JavaScriptFunctions] - Shade element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //h2[@class='name']]
+00:52:16.108 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //h2[@class='name']] is : Dell i7 8gb
+00:52:16.109 [INFO ] [SupportValidations] - The Actual Header is: Dell i7 8gb The Expected Header is: Dell i7 8gb
+00:52:16.139 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[@class='btn btn-success btn-lg']] to be clickable
+00:52:16.291 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[@class='btn btn-success btn-lg']] is clickable
+00:52:16.460 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[@class='btn btn-success btn-lg']]
+00:52:16.460 [INFO ] [ProductPage] - Click on Add to Cart
+00:52:19.479 [INFO ] [ProductPage] - The alert was displayed successfully
+00:52:19.527 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[contains(text(),'Cart')]] to be clickable
+00:52:19.647 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[contains(text(),'Cart')]] is clickable
+00:52:20.244 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //a[contains(text(),'Cart')]]
+00:52:20.244 [INFO ] [ProductPage] - Click on Cart Tab
+00:52:20.244 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element cart.html to be present in the URL
+00:52:20.255 [INFO ] [ExplicitWaits] - The URL contains: cart.html
+00:52:20.255 [INFO ] [CartPage] - The Cart URL is displayed correctly
+00:52:20.281 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element Proxy element for: DefaultElementLocator 'By.xpath: //tr//td[2]' to be visible
+00:52:20.982 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //tr//td[2]] is present
+00:52:21.006 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //tr//td[3]] to be visible
+00:52:21.058 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //tr//td[3]] is present
+00:52:21.058 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for string Dell i7 8gb to be present in the Element
+00:52:21.102 [INFO ] [ExplicitWaits] - The element contains: Dell i7 8gb
+00:52:21.132 [INFO ] [CartPage] - The Actual Product Name is : Dell i7 8gb The Expected Product Name is: Dell i7 8gb
+00:52:21.187 [INFO ] [CartPage] - The Actual Product Price is : 700 The Expected Product Price is: 700
+00:52:21.217 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //button[@class='btn btn-success']] to be clickable
+00:52:21.310 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //button[@class='btn btn-success']] is clickable
+00:52:21.477 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //button[@class='btn btn-success']]
+00:52:21.477 [INFO ] [CartPage] - The Click on Place Order
+00:52:21.510 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: name] to be visible
+00:52:22.141 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: name] is present
+00:52:22.162 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: country] to be visible
+00:52:22.218 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: country] is present
+00:52:22.242 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: city] to be visible
+00:52:22.306 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: city] is present
+00:52:22.329 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: card] to be visible
+00:52:22.385 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: card] is present
+00:52:22.413 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: month] to be visible
+00:52:22.474 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: month] is present
+00:52:22.497 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: year] to be visible
+00:52:22.563 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: year] is present
+00:52:22.835 [INFO ] [SeleniumActions] - Send the text to the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: name]
+00:52:23.125 [INFO ] [SeleniumActions] - Send the text to the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: country]
+00:52:23.439 [INFO ] [SeleniumActions] - Send the text to the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: city]
+00:52:23.796 [INFO ] [SeleniumActions] - Send the text to the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: card]
+00:52:24.045 [INFO ] [SeleniumActions] - Send the text to the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: month]
+00:52:24.282 [INFO ] [SeleniumActions] - Send the text to the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: year]
+00:52:24.309 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //button[contains(text(),'Purchase')]] to be clickable
+00:52:24.414 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //button[contains(text(),'Purchase')]] is clickable
+00:52:24.609 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //button[contains(text(),'Purchase')]]
+00:52:24.609 [INFO ] [CartPage] - The Click on Purchase Button
+00:52:24.659 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: name] to be visible
+00:52:24.742 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> id: name] is present
+00:52:24.841 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //p[contains(@class,'lead text-muted')]] is : Id: 6422616
+Amount: 700 USD
+Card Number: 4111111111111111
+Name: Test Purchase
+Date: 4/8/2020
+00:52:24.841 [INFO ] [SupportValidations] - The Actual String is Contains the Expected String: 700
+00:52:24.842 [INFO ] [SupportValidations] - The Actual String is Contains the Expected String: 4111111111111111
+00:52:24.964 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (c16cd24e312a4744690115244a7f0b9b)] -> xpath: //button[@class='confirm btn btn-lg btn-primary']]
+00:52:24.968 [INFO ] [PurchaseProducts] - ======PASSED=====
+00:52:24.969 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
+00:52:24.969 [INFO ] [PurchaseProducts] -  -------------- The Test purchaseLaptop has been completed
+00:52:24.971 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------

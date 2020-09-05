@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PurchaseTest]">
+  <parameter name="browser" value="chrome"/>
+  <test name="PurchaseLaptops(failed)">
+    <classes>
+      <class name="app.suites.PurchaseProducts">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="purchaseLaptop"/>
+          <include name="setClasses"/>
+        </methods>
+      </class> <!-- app.suites.PurchaseProducts -->
+    </classes>
+  </test> <!-- PurchaseLaptops(failed) -->
+</suite> <!-- Failed suite [PurchaseTest] -->

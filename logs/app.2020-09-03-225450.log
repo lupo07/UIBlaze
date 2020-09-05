@@ -1,0 +1,18 @@
+22:54:51.676 [INFO ] [PurchaseProducts] - The Test Suite app.suites.PurchaseProducts has started
+22:54:58.757 [INFO ] [PurchaseProducts] - Local Driver
+22:54:58.757 [INFO ] [PurchaseProducts] -  Base Url: https://www.demoblaze.com/ Browser: chrome
+22:54:58.757 [INFO ] [PurchaseProducts] - Driver: ChromeDriver: chrome on WINDOWS (2aa2802754e4d94a9a9e4a4caa58dd4f)
+22:55:02.684 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (2aa2802754e4d94a9a9e4a4caa58dd4f)] -> xpath: //a[contains(text(),'Laptops')]] to be clickable
+22:55:02.887 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (2aa2802754e4d94a9a9e4a4caa58dd4f)] -> xpath: //a[contains(text(),'Laptops')]] is clickable
+22:55:03.004 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (2aa2802754e4d94a9a9e4a4caa58dd4f)] -> xpath: //a[contains(text(),'Laptops')]]
+22:55:03.005 [INFO ] [ProductStoreLPage] - The Click on Filter
+22:55:03.005 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element # to be present in the URL
+22:55:03.016 [INFO ] [ExplicitWaits] - The URL contains: #
+22:55:03.016 [INFO ] [ProductStoreLPage] - The URL is displayed correctly
+22:55:03.100 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (2aa2802754e4d94a9a9e4a4caa58dd4f)] -> xpath: //h4/a] is : Samsung galaxy s6
+22:55:03.804 [INFO ] [SeleniumActions] - Click on the WebElement: [[ChromeDriver: chrome on WINDOWS (2aa2802754e4d94a9a9e4a4caa58dd4f)] -> xpath: //h4/a]
+22:55:03.804 [INFO ] [ProductStoreLPage] - The Click on the element Dell i7 8gb
+22:55:03.812 [INFO ] [PurchaseProducts] - ======PASSED=====
+22:55:03.819 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
+22:55:03.820 [INFO ] [PurchaseProducts] -  -------------- The Test purchaseLaptop has been completed
+22:55:03.821 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------

@@ -1,0 +1,21 @@
+22:59:36.538 [INFO ] [PurchaseProducts] - The Test Suite app.suites.PurchaseProducts has started
+22:59:42.633 [INFO ] [PurchaseProducts] - Local Driver
+22:59:42.634 [INFO ] [PurchaseProducts] -  Base Url: https://www.demoblaze.com/ Browser: chrome
+22:59:42.634 [INFO ] [PurchaseProducts] - Driver: ChromeDriver: chrome on WINDOWS (15d1b08b3d9b1e16cbcbf5bb08bb6940)
+22:59:46.704 [INFO ] [PurchaseProducts] - 
+ ----------------------------------------------------------------------
+22:59:46.705 [INFO ] [PurchaseProducts] -  -------------- Step 1 Login to the access Credentials ------------------
+22:59:46.777 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (15d1b08b3d9b1e16cbcbf5bb08bb6940)] -> xpath: //a[contains(text(),'Laptops')]] to be clickable
+22:59:46.945 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (15d1b08b3d9b1e16cbcbf5bb08bb6940)] -> xpath: //a[contains(text(),'Laptops')]] is clickable
+22:59:47.091 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (15d1b08b3d9b1e16cbcbf5bb08bb6940)] -> xpath: //a[contains(text(),'Laptops')]]
+22:59:47.092 [INFO ] [ProductStoreLPage] - The Click on Filter
+22:59:47.092 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element # to be present in the URL
+22:59:47.103 [INFO ] [ExplicitWaits] - The URL contains: #
+22:59:47.103 [INFO ] [ProductStoreLPage] - The URL is displayed correctly
+22:59:47.196 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (15d1b08b3d9b1e16cbcbf5bb08bb6940)] -> xpath: //h4/a] is : Samsung galaxy s6
+22:59:47.758 [INFO ] [SeleniumActions] - Click on the WebElement: [[ChromeDriver: chrome on WINDOWS (15d1b08b3d9b1e16cbcbf5bb08bb6940)] -> xpath: //h4/a]
+22:59:47.759 [INFO ] [ProductStoreLPage] - The Click on the element Dell i7 8gb
+22:59:47.763 [INFO ] [PurchaseProducts] - ======PASSED=====
+22:59:47.764 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
+22:59:47.764 [INFO ] [PurchaseProducts] -  -------------- The Test purchaseLaptop has been completed
+22:59:47.765 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------

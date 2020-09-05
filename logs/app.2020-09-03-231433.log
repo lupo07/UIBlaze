@@ -1,0 +1,37 @@
+23:14:34.376 [INFO ] [PurchaseProducts] - The Test Suite app.suites.PurchaseProducts has started
+23:14:40.304 [INFO ] [PurchaseProducts] - Local Driver
+23:14:40.304 [INFO ] [PurchaseProducts] -  Base Url: https://www.demoblaze.com/ Browser: chrome
+23:14:40.304 [INFO ] [PurchaseProducts] - Driver: ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)
+23:14:44.094 [INFO ] [PurchaseProducts] - 
+ ----------------------------------------------------------------------
+23:14:44.094 [INFO ] [PurchaseProducts] -  -------------- Step 1 Login to the access Credentials ------------------
+23:14:44.149 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //a[contains(text(),'Laptops')]] to be clickable
+23:14:44.344 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //a[contains(text(),'Laptops')]] is clickable
+23:14:44.547 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //a[contains(text(),'Laptops')]]
+23:14:44.548 [INFO ] [ProductStoreLPage] - The Click on Filter
+23:14:44.548 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element # to be present in the URL
+23:14:44.580 [INFO ] [ExplicitWaits] - The URL contains: #
+23:14:44.581 [INFO ] [ProductStoreLPage] - The URL is displayed correctly
+23:14:44.802 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //h4/a] is : Sony vaio i5
+23:14:44.802 [INFO ] [ProductStoreLPage] - Product: Sony vaio i5
+23:14:44.887 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //h4/a] is : Sony vaio i7
+23:14:44.887 [INFO ] [ProductStoreLPage] - Product: Sony vaio i7
+23:14:44.957 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //h4/a] is : MacBook air
+23:14:44.958 [INFO ] [ProductStoreLPage] - Product: MacBook air
+23:14:45.013 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //h4/a] is : Dell i7 8gb
+23:14:45.013 [INFO ] [ProductStoreLPage] - Product: Dell i7 8gb
+23:14:45.487 [INFO ] [SeleniumActions] - Click on the WebElement: [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //h4/a]
+23:14:45.489 [INFO ] [ProductStoreLPage] - The Click on the element Dell i7 8gb
+23:14:45.654 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element Proxy element for: DefaultElementLocator 'By.xpath: //h2[@class='name']' to be visible
+23:14:46.279 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //h2[@class='name']] is present
+23:14:46.330 [INFO ] [JavaScriptFunctions] - Shade element [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //h2[@class='name']]
+23:14:46.923 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //h2[@class='name']] is : Dell i7 8gb
+23:14:46.924 [INFO ] [SupportValidations] - The Actual Header is: Dell i7 8gb The Expected Header is: Dell i7 8gb
+23:14:46.949 [INFO ] [ExplicitWaits] - Waiting for max:: 10 seconds for element [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //a[@class='btn btn-success btn-lg']] to be clickable
+23:14:47.074 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //a[@class='btn btn-success btn-lg']] is clickable
+23:14:47.227 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (eea00612f024fe61aba3552349228e2b)] -> xpath: //a[@class='btn btn-success btn-lg']]
+23:14:47.228 [INFO ] [ProductPage] - Click on Add to Cart
+23:14:47.247 [INFO ] [PurchaseProducts] - ======FAILED=====
+23:14:47.561 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
+23:14:47.561 [INFO ] [PurchaseProducts] -  -------------- The Test purchaseLaptop has been completed
+23:14:47.562 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------

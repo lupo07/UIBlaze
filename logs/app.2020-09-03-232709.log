@@ -1,0 +1,70 @@
+23:27:10.029 [INFO ] [PurchaseProducts] - The Test Suite app.suites.PurchaseProducts has started
+23:27:16.378 [INFO ] [PurchaseProducts] - Local Driver
+23:27:16.379 [INFO ] [PurchaseProducts] -  Base Url: https://www.demoblaze.com/ Browser: chrome
+23:27:16.380 [INFO ] [PurchaseProducts] - Driver: ChromeDriver: chrome on WINDOWS (82dd88f45f09cb7f030281a3d626a3bc)
+23:27:20.574 [INFO ] [PurchaseProducts] - 
+ ----------------------------------------------------------------------
+23:27:20.575 [INFO ] [PurchaseProducts] -  -------------- Step 1 Login to the access Credentials ------------------
+23:27:20.635 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element [[ChromeDriver: chrome on WINDOWS (82dd88f45f09cb7f030281a3d626a3bc)] -> xpath: //a[contains(text(),'Laptops')]] to be clickable
+23:27:20.826 [INFO ] [ExplicitWaits] - Element [[ChromeDriver: chrome on WINDOWS (82dd88f45f09cb7f030281a3d626a3bc)] -> xpath: //a[contains(text(),'Laptops')]] is clickable
+23:27:20.965 [INFO ] [SeleniumActions] - The Click on a WebElement: [[ChromeDriver: chrome on WINDOWS (82dd88f45f09cb7f030281a3d626a3bc)] -> xpath: //a[contains(text(),'Laptops')]]
+23:27:20.965 [INFO ] [ProductStoreLPage] - The Click on Filter
+23:27:20.966 [INFO ] [ExplicitWaits] - Waiting for max:: 15 seconds for element # to be present in the URL
+23:27:20.978 [INFO ] [ExplicitWaits] - The URL contains: #
+23:27:20.979 [INFO ] [ProductStoreLPage] - The URL is displayed correctly
+23:27:21.069 [INFO ] [SeleniumActions] - The text of the WebElement: [[ChromeDriver: chrome on WINDOWS (82dd88f45f09cb7f030281a3d626a3bc)] -> xpath: //h4/a] is : Samsung galaxy s6
+23:27:21.069 [INFO ] [ProductStoreLPage] - Product: Samsung galaxy s6
+23:27:21.215 [INFO ] [PurchaseProducts] - ======FAILED=====
+23:27:21.797 [DEBUG] [UsefulMethods] - Local WebDriver detected..
+23:27:21.885 [INFO ] [PurchaseProducts] - Exception: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H2M3TG4', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 82dd88f45f09cb7f030281a3d626a3bc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at app.common.SeleniumActions.getElementText(SeleniumActions.java:31)
+	at app.pages.ProductStoreLPage.clickOnTheProduct(ProductStoreLPage.java:57)
+	at app.suites.PurchaseProducts.purchaseLaptop(PurchaseProducts.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+23:27:21.908 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
+23:27:21.908 [INFO ] [PurchaseProducts] -  -------------- The Test purchaseLaptop has been completed
+23:27:21.908 [INFO ] [PurchaseProducts] - ----------------------------------------------------------------------
